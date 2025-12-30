@@ -6,20 +6,20 @@
 ## 2 Добавить элемент User Control
 ## 3 Переименовать User Control (в файле Xaml) в Windows
 ## 4 Переименовать User Control (в файле cs) в Windows
-## 5 создать файл манифест
+## 5 создать файл манифест пример ищите в интернете
 
 # SimplRevitWpf.addin
 
-# <?xml version="1.0" encoding="utf-8"?>
-# <RevitAddIns>
-#  <AddIn Type="Command">
-#    <Text>Simple WPF</Text>
-#    <Description>Простой WPF плагин</Description>
-#    <Assembly>SimpleRevitWpf.dll</Assembly>
-#    <AddInId>61E97ECA-A69F-4DE0-BF65-E8010E53F059</AddInId>   // код берем из СРЕДСТВА - СОЗДАТЬ GUID - 4 Формат реестра
-#    <FullClassName>SimpleRevitWpf.SimpleCommand</FullClassName>
-#    <Text>Первое окно</Text>
-#    <VendorId>MyWin</VendorId>
-# <VendorDescription></VendorDescription>
-#  </AddIn>
-# </RevitAddIns>
+ <?xml version="1.0" encoding="utf-8"?>
+ <RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Simple WPF</Text>
+    <Description>Простой WPF плагин</Description>
+    <Assembly>SimpleRevitWpf.dll</Assembly>
+    <AddInId>61E97ECA-A69F-4DE0-BF65-E8010E53F059</AddInId>   // код берем из СРЕДСТВА - СОЗДАТЬ GUID - 4 Формат реестра
+    <FullClassName>SimpleRevitWpf.SimpleCommand</FullClassName>
+    <Text>Первое окно</Text>
+    <VendorId>MyWin</VendorId>
+ <VendorDescription></VendorDescription>
+  </AddIn>
+ </RevitAddIns>
