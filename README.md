@@ -2,13 +2,13 @@
 Первое окно в Revit
 <img width="974" height="740" alt="image" src="https://github.com/user-attachments/assets/0ffb8103-e8bf-4642-8bf1-90f4c864b75a" />
 .Net Framework 4.8
-1 Создать проект библиотека классов  .Net Framework 4.8
-2 Добавить элемент User Control
-3 Переименовать User Control (в файле Xaml) в Windows
-4 Переименовать User Control (в файле cs) в Windows
-5 создать файл манифест
+## 1 Создать проект библиотека классов  .Net Framework 4.8
+## 2 Добавить элемент User Control
+## 3 Переименовать User Control (в файле Xaml) в Windows
+## 4 Переименовать User Control (в файле cs) в Windows
+## 5 создать файл манифест
 
-SimplRevitWpf.addin
+# SimplRevitWpf.addin
 
 <?xml version="1.0" encoding="utf-8"?>
 <RevitAddIns>
