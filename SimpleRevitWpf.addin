@@ -1,0 +1,13 @@
+<RevitAddIns>
+<AddIn Type="Command">
+<Name>FirstWin</Name>
+<Assembly>SimpleRevitWpf.dll</Assembly>
+<AddInId>29497353-B8F3-45F6-BA92-6BC4CB094B49</AddInId>
+<FullClassName>SimpleRevitWpf.SimpleCommand</FullClassName>
+<Text>Первое окно</Text>
+<VendorId>MyWin</VendorId>
+<VendorDescription></VendorDescription>
+</AddIn>
+</RevitAddIns>
+
+
